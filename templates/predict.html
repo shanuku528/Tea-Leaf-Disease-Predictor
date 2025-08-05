@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict Tea Leaf Disease</title>
+    <style>
+        body {
+            background-image: url("C:\\Users\\Lenovo\\OneDrive\\tea leaf\\static\\background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        form {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload an Image of a Tea Leaf</h1>
+    
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction is defined %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+
+    <br><a href="/" style="color: lightblue;">Back to Home</a>
+</body>
+</html>
