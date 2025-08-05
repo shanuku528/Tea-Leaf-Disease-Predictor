@@ -1,0 +1,22 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# IDE settings
+.idea/
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Temporary uploads
+uploads/
+
+# Large model files
+*.h5
+*.hdf5
+
+# Dataset folder (optional — you can comment this out if you want to upload samples)
+dataset/
