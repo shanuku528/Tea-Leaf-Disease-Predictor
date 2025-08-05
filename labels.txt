@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 algal leaf
 anthracnose
 bird eye spot
@@ -7,3 +8,14 @@ healthy
 helopeltis
 red leaf spot
 white spot
+=======
+algal leaf
+anthracnose
+bird eye spot
+brown blight
+gray blight
+healthy
+helopeltis
+red leaf spot
+white spot
+>>>>>>> f6d885ae88d9016db9939500fab712d66d99569d
